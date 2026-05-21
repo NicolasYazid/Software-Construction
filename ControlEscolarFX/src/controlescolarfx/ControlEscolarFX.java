@@ -14,7 +14,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 /**
- *
+ * Hola, este es el primer Commit que hago para este proyecto.
  * @author yazid
  */
 public class ControlEscolarFX extends Application {
