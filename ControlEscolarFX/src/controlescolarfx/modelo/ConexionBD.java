@@ -37,7 +37,7 @@ public class ConexionBD {
 
             Class.forName(DRIVER);
 
-            return DriverManager.getConnection(URL_CONEXION, DRIVER, PASSWORD); //IP
+            return DriverManager.getConnection(URL_CONEXION, USUARIO_BD, PASSWORD); //IP
         } catch (ClassNotFoundException ex) {
             throw new SQLException("No se encontro el driver de MySQL: " + ex.getMessage(), ex);
         }

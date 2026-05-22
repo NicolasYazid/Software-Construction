@@ -52,11 +52,14 @@ public class FXML_InicioSesionController implements Initializable {
 
     @FXML
     private void clickBtnIngresar(ActionEvent event) {
+        
         String noPersonal = tfNoPersonal.getText();
         String contrasenia = tfPassword.getText();
+        
         if (sonDatosPermitidos(noPersonal, contrasenia)) {
             validarCredenciales(noPersonal, contrasenia);
         }
+        
     }
 
     private boolean sonDatosPermitidos(String noPersonal, String password) {

@@ -47,7 +47,7 @@ public class FXMLPrincipalController implements Initializable {
     @FXML
     private void clicBtnIrAdminAlumnos(ActionEvent event) {
         try {
-            Parent vista = FXMLLoader.load(ControlEscolarFX.class.getResource("vista/FXMLAdminAlumnos.fxml"));
+            Parent vista = FXMLLoader.load(ControlEscolarFX.class.getResource("vista/FXML_AdminAlumnos.fxml"));
             Scene scene = new Scene(vista);
             
             Stage stageAdmin = new Stage();
