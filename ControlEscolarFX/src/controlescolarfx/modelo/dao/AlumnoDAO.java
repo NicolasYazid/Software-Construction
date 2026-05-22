@@ -27,8 +27,8 @@ public class AlumnoDAO {
         Connection conexionBD = ConexionBD.obtenerConexion();
         if (conexionBD != null) {
             String consulta = "SELECT a.idAlumno, a.nombre, a.apellidoPaterno, a.apellidoMaterno, "
-                + "a.matricula, a.email, a.idCarrera, c.carrera, "
-                + "c.idFacultad, f.facultad "
+                + "a.matricula, a.email, a.idCarrera, c.nombre, "
+                + "c.idFacultad, f.nombre "
                 + "FROM alumno a "
                 + "INNER JOIN carrera c ON c.idCarrera = a.idCarrera "
                 + "INNER JOIN facultad f ON f.idFacultad = c.idFacultad";
@@ -55,9 +55,9 @@ public class AlumnoDAO {
             alumno.setEmail(resultado.getString("matricula"));
             alumno.setEmail(resultado.getString("email"));
             alumno.setIdCarrera(resultado.getInt("idCarrera"));
-            alumno.setCarrera(resultado.getString("carrera"));
+            alumno.setCarrera(resultado.getString("nombre"));
             alumno.setIdFacultad(resultado.getInt("idFacultad"));
-            alumno.setFacultad(resultado.getString("facultad"));
+            alumno.setFacultad(resultado.getString("nombre"));
             return alumno;
         }
 }
