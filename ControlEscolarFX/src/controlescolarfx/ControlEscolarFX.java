@@ -21,7 +21,7 @@ public class ControlEscolarFX extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("vista/FXML_InicioSesion.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("vista/FXMLInicioSesion.fxml"));
         
         Scene scene = new Scene(root);
         

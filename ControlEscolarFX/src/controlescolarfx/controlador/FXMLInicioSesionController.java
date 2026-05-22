@@ -32,7 +32,7 @@ import javafx.stage.Stage;
  *
  * @author yazid
  */
-public class FXML_InicioSesionController implements Initializable {
+public class FXMLInicioSesionController implements Initializable {
 
     @FXML
     private Label label;

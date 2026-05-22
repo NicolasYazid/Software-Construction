@@ -31,7 +31,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
  *
  * @author yazid
  */
-public class FXML_AdminAlumnosController implements Initializable {
+public class FXMLAdminAlumnosController implements Initializable {
 
     @FXML
     private TextField tfBusquedaAlumno;
