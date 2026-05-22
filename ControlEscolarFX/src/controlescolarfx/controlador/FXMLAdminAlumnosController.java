@@ -84,7 +84,7 @@ public class FXMLAdminAlumnosController implements Initializable {
         try {
             alumnos = FXCollections.observableArrayList();
             List<Alumno> alumnosBD = AlumnoDAO.obtenerAlumnos();
-            alumnos.addAll(alumnos);
+            alumnos.addAll(alumnosBD);
             tvAlumnos.setItems(alumnos);
         } catch (SQLException ex) {
             Utilidades.mostrarAlertaSimple("Error de conexión", ex.getMessage(), Alert.AlertType.NONE);

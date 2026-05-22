@@ -52,7 +52,7 @@ public class AlumnoDAO {
             alumno.setApellidoPaterno(resultado.getString("apellidoPaterno"));
             alumno.setApellidoMaterno(
                     (resultado.getString("apellidoMaterno") != null) ? resultado.getString("apellidoMaterno"): "");
-            alumno.setEmail(resultado.getString("matricula"));
+            alumno.setMatricula(resultado.getString("matricula"));
             alumno.setEmail(resultado.getString("email"));
             alumno.setIdCarrera(resultado.getInt("idCarrera"));
             alumno.setCarrera(resultado.getString("nombre"));

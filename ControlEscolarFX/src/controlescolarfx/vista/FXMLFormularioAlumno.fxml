@@ -10,9 +10,14 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlescolarfx.controlador.FXMLFormularioAlumnoController">
+<AnchorPane id="AnchorPane"
+            prefHeight="550.0"
+            prefWidth="755.0"
+            xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controlescolarfx.controlador.FXMLFormularioAlumnoController">
    <children>
-      <Label layoutX="47.0" layoutY="46.0" text="Formularios alumnos">
+      <Label layoutX="47.0" layoutY="46.0" text="Formulario alumnos">
          <font>
             <Font size="19.0" />
          </font>
