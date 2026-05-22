@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.canvas.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
@@ -8,26 +10,25 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="755.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controlescolarfx.controlador.FXMLFormularioAlumnoController">
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlescolarfx.controlador.FXMLFormularioAlumnoController">
    <children>
-      <Label layoutX="37.0" layoutY="29.0" text="Formularios alumnos">
+      <Label layoutX="47.0" layoutY="46.0" text="Formularios alumnos">
          <font>
             <Font size="19.0" />
          </font>
       </Label>
-      <ImageView fx:id="ivFoto" fitHeight="100.0" fitWidth="100.0" layoutX="250.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true" />
-      <Button layoutX="237.0" layoutY="185.0" mnemonicParsing="false" onAction="#clicSeleccionarFoto" text="Seleccionar foto" />
+      <ImageView fx:id="ivFoto" fitHeight="100.0" fitWidth="100.0" layoutX="593.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="580.0" layoutY="188.0" mnemonicParsing="false" onAction="#clicSeleccionarFoto" text="Seleccionar foto" />
       <TextField layoutX="50.0" layoutY="274.0" onAction="#tfMatricula" />
       <Label layoutX="50.0" layoutY="246.0" text="Matricula" />
       <Label layoutX="257.0" layoutY="246.0" text="Nombre" />
       <TextField layoutX="257.0" layoutY="274.0" onAction="#tfNombre" />
       <Label layoutX="470.0" layoutY="246.0" text="Apellido paterno" />
       <TextField layoutX="470.0" layoutY="274.0" onAction="#tfApPaterno" />
-      <TextField layoutX="254.0" layoutY="359.0" onAction="#tfCorreo" />
-      <Label layoutX="254.0" layoutY="331.0" text="Correo electrónico" />
-      <Label layoutX="47.0" layoutY="331.0" text="ApellidoMaterno" />
-      <TextField layoutX="47.0" layoutY="359.0" onAction="#tfApMaterno" />
+      <TextField layoutX="260.0" layoutY="360.0" onAction="#tfCorreo" />
+      <Label layoutX="260.0" layoutY="332.0" text="Correo electrónico" />
+      <Label layoutX="53.0" layoutY="332.0" text="ApellidoMaterno" />
+      <TextField layoutX="53.0" layoutY="360.0" onAction="#tfApMaterno" />
       <Label layoutX="47.0" layoutY="413.0" text="Facultad" />
       <Label layoutX="254.0" layoutY="413.0" text="Carrera" />
       <ComboBox layoutX="50.0" layoutY="434.0" onAction="#cbFacultad" prefWidth="150.0" />

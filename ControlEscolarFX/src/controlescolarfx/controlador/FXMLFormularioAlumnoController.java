@@ -70,6 +70,7 @@ public class FXMLFormularioAlumnoController implements Initializable {
 
     @FXML
     private void clicBtnCancelar(ActionEvent event) {
+        
     }
     
 }
